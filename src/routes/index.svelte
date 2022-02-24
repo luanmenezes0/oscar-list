@@ -1,59 +1,66 @@
-<script context="module">
+<!-- <script context="module">
 	export const prerender = true;
-</script>
-
+</script> -->
 <script>
-	import Counter from '$lib/Counter.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+  <title>Home</title>
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+  <article>
+    <h2>BELFAST</h2>
+    <a href="movies/777270">details</a>
+  </article>
 
-		to your new<br />SvelteKit app
-	</h1>
+  <article>
+    <h2>CODA</h2>
+    <a href="movies/776503">details</a>
+  </article>
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
+  <article>
+    <h2>DON'T LOOK UP</h2>
+    <a href="movies/600583">details</a>
+  </article>
+	
+  <article>
+    <h2>DRIVE MY CAR</h2>
+    <a href="movies/600583">details</a>
+  </article>
 
-	<Counter />
+  <article>
+    <h2>DUNE</h2>
+    <a href="movies/438631">details</a>
+  </article>
+
+  <article>
+    <h2>DRIVE MY CAR</h2>
+    <a href="movies/600583">details</a>
+  </article>
+
+  <article>
+    <h2>KING RICHARD</h2>
+    <a href="movies/600583">details</a>
+  </article>
+
+  <article>
+    <h2>LICORICE PIZZA</h2>
+    <a href="movies/600583">details</a>
+  </article>
+
+  <article>
+    <h2>NIGHTMARE ALLEY</h2>
+    <a href="movies/600583">details</a>
+  </article>
+
+  <article>
+    <h2>THE POWER OF THE DOG</h2>
+    <a href="movies/600583">details</a>
+  </article>
+
+  <article>
+    <h2>WEST SIDE STORY</h2>
+    <a href="movies/600583">details</a>
+  </article>
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
