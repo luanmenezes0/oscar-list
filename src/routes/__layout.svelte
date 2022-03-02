@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>powered by <a href="https://www.themoviedb.org/">TMDB</a></p>
 </footer>
 
 <style>
@@ -20,6 +20,6 @@
 	}
 
 	main {
-		padding: var(--size-fluid-3);
+		padding: var(--size-fluid-4);
 	}
 </style>
