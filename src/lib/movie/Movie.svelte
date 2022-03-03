@@ -30,6 +30,7 @@
   .card {
     display: grid;
     gap: var(--size-2);
+    grid-template-rows: min-content auto auto;
     background: var(--surface-3);
     border: 1px solid var(--surface-1);
     padding: var(--size-4);
@@ -78,6 +79,7 @@
   }
 
   .watched {
-    background: #000;
+    background: var(--blue-8);
+    border-color: var(--blue-8);
   }
 </style>

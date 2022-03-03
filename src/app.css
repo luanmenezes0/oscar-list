@@ -1,6 +1,6 @@
+/* Write your global styles here, in PostCSS syntax */
 @import "open-props/style";
 @import "open-props/normalize";
-
 
 #svelte {
   display: grid;
