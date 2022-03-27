@@ -24,10 +24,15 @@
     gap: 1rem;
   }
 
+  h1 {
+    text-align: center;
+  }
+
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
   }
 
   .text {
