@@ -53,7 +53,7 @@
 </script>
 
 <svelte:head>
-  <title>Oscar List</title>
+  <title>Oscars 2022 List</title>
 </svelte:head>
 
 <section>
