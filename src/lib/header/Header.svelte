@@ -1,6 +1,6 @@
 <header>
   <div class="content">
-    <img src="/oscar.png" alt="" />
+    <img class="content__icon" src="/oscar.png" alt="" />
     <a href="/"><h1>Oscars 2022</h1></a>
   </div>
 
@@ -27,6 +27,7 @@
   .content {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .text {
@@ -43,5 +44,9 @@
 
   a {
     text-decoration: none;
+  }
+
+  .content__icon {
+    height: 70px;
   }
 </style>
