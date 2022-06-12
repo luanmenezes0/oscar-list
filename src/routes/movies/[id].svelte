@@ -1,30 +1,3 @@
-<script context="module" lang="ts">
-  import type { LoadInput } from "@sveltejs/kit/types/internal";
-
-  export async function load({ fetch, params }: LoadInput<{ id: string }>) {
-    const API_KEY = "09cb613a21480e11c07496d803efc1c7";
-
-    const url = new URL(`https://api.themoviedb.org/3/movie/${params.id}`);
-    url.searchParams.append("api_key", API_KEY);
-
-    const response = await fetch(url.href);
-    const result = await response.json();
-
-    if (response.ok) {
-      return {
-        props: {
-          movie: result,
-        },
-      };
-    }
-
-    return {
-      status: response.status,
-      error: new Error("COULD NOT FETCH POSTS"),
-    };
-  }
-</script>
-
 <script lang="ts">
   export let movie;
 </script>
